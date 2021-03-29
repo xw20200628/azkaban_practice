@@ -14,6 +14,7 @@ public class AzkabanTest {
         try {
             fos = new FileOutputStream("/opt/module/datas/output.txt");
             fos.write("this is a java progress".getBytes());
+            fos.write("this is a java progress".getBytes());
         } catch (Exception e) {
             e.printStackTrace();
         }finally {
@@ -23,5 +24,6 @@ public class AzkabanTest {
                 e.printStackTrace();
             }
         }
+
     }
 }
